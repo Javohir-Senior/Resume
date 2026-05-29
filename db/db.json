@@ -1,0 +1,594 @@
+{
+  "users": [
+    {
+      "name": "Javohir",
+      "phone": "+998912424991",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "q",
+      "phone": "123",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "q",
+      "phone": "1234",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "name": "ravshan",
+      "phone": "+998914017702",
+      "password": "ravshan02",
+      "id": 4
+    },
+    {
+      "name": "ravshan",
+      "phone": "4017702",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "name": "ravshan",
+      "phone": "991231212",
+      "password": "12312312",
+      "id": 6
+    }
+  ],
+  "resume": [
+    {
+      "userId": 1,
+      "fullName": "Javohir Ibrohimov",
+      "phone": "+998 91 242 4991",
+      "gitHub": "https://github.com",
+      "address": "Buxoro",
+      "email": "javohiribrohimov61@gmail.com",
+      "partfolio": "https://javohiribrohimov.github.io",
+      "jobTitle": "Front end",
+      "LinkkeyIn": "https://linkedin.com/in/javohir-ibrohimov",
+      "summary": "qwert",
+      "experiences": [
+        {
+          "company": "Google",
+          "role": "ish boshqaruvchi",
+          "location": "Apsh",
+          "startDate": "2025-01-01",
+          "endDate": "2026-01-01",
+          "description": "qwertyuiopqqqqqqqqqqqqqqqqq"
+        },
+        {
+          "company": "Google",
+          "role": "ish boshqaruvchi",
+          "location": "Apsh",
+          "startDate": "2025-01-01",
+          "endDate": "2026-01-01",
+          "description": "qwertyuiopqqqqqqqqqqqqqqqqq"
+        },
+        {
+          "company": "Apple",
+          "role": "ish boshqaruvchi",
+          "location": "Aqsh",
+          "startDate": "2026-01-02",
+          "endDate": "",
+          "description": "qqqqqqqqqqqqqqqqqqqqqq"
+        },
+        {
+          "company": "Apple",
+          "role": "ish boshqaruvchi",
+          "location": "Aqsh",
+          "startDate": "2026-01-02",
+          "endDate": "",
+          "description": "qqqqqqqqqqqqqqqqqqqqq"
+        }
+      ],
+      "languages": [
+        {
+          "language": "uzbek",
+          "level": "C2"
+        },
+        {
+          "language": "uzbek",
+          "level": "C2"
+        },
+        {
+          "language": "uzbek",
+          "level": "C2"
+        },
+        {
+          "language": "uzbek",
+          "level": "C2"
+        },
+        {
+          "language": "uzbek",
+          "level": "C2"
+        }
+      ],
+      "projects": [
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        },
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        },
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        },
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        },
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        },
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        },
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        },
+        {
+          "projectName": "youtube",
+          "liveLink": "youtube.com",
+          "repoLink": "github",
+          "description": "qwqwqwqwqwqwq"
+        }
+      ],
+      "education": [
+        {
+          "institution": "SHIFT Academy",
+          "degree": "Kurs",
+          "fieldOfStudy": "Frontend",
+          "startDate": "2025-08-11",
+          "endDate": "",
+          "description": "hozirda reactni tugatyapman"
+        },
+        {
+          "institution": "SHIFT Academy",
+          "degree": "Kurs",
+          "fieldOfStudy": "Frontend",
+          "startDate": "2025-08-11",
+          "endDate": "",
+          "description": "hozirda reactni tugatyapman"
+        },
+        {
+          "institution": "SHIFT Academy",
+          "degree": "Kurs",
+          "fieldOfStudy": "Frontend",
+          "startDate": "2025-08-11",
+          "endDate": "",
+          "description": "hozirda reactni tugatyapman"
+        },
+        {
+          "institution": "SHIFT Academy",
+          "degree": "Kurs",
+          "fieldOfStudy": "Frontend",
+          "startDate": "2025-08-11",
+          "endDate": "",
+          "description": "hozirda reactni tugatyapman"
+        }
+      ],
+      "skills": [
+        {
+          "category": "Frontend",
+          "skillList": "html,js,ts,css,react"
+        },
+        {
+          "category": "Frontend",
+          "skillList": "html,js,ts,css,react"
+        },
+        {
+          "category": "Frontend",
+          "skillList": "html,js,ts,css,react"
+        },
+        {
+          "category": "Frontend",
+          "skillList": "html,js,ts,css,react"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "fullName": "Rasulov Bekzod",
+      "phone": "+998 90 000 00 00",
+      "gitHub": "https://github.com",
+      "address": "buhoro shahar",
+      "email": "bekzod12@gmail.com",
+      "partfolio": "https//partfolio.com",
+      "jobTitle": "frontend developer",
+      "LinkkeyIn": "htpp//:www.bekzod",
+      "summary": "bekzod yaxshi bacha",
+      "experiences": [
+        {
+          "company": "Feckbook",
+          "role": "dasturchi",
+          "location": "Aqsh",
+          "startDate": "1999-01-01",
+          "endDate": "",
+          "description": "ish yaxshi"
+        }
+      ],
+      "languages": [
+        {
+          "language": "O'zbek",
+          "level": "B2"
+        }
+      ],
+      "projects": [
+        {
+          "projectName": "Telegram",
+          "liveLink": "https://telegram.com",
+          "repoLink": "https://telegram.com",
+          "description": "yaxshi loyiha"
+        }
+      ],
+      "education": [
+        {
+          "institution": "SHIFT",
+          "degree": "Kurs",
+          "fieldOfStudy": "Frontend",
+          "startDate": "2025-08-11",
+          "endDate": "",
+          "description": "yaxshi kurs"
+        }
+      ],
+      "skills": [
+        {
+          "category": "Frontend",
+          "skillList": "html, css , js, ts, reaxt, tailwind"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 4,
+      "fullName": "Qahramonov Ravshan",
+      "phone": "+998914017702",
+      "gitHub": "github.com",
+      "address": "buxoro",
+      "email": "r17ravshan@gmail.com",
+      "partfolio": "link",
+      "jobTitle": "Full Stack Developer",
+      "LinkkeyIn": "linked.com",
+      "summary": "m",
+      "experiences": [
+        {
+          "company": "codecraft",
+          "role": "Teacher",
+          "location": "Toshkent",
+          "startDate": "2022-06-22",
+          "endDate": "2023-02-22",
+          "description": ""
+        },
+        {
+          "company": "Shift",
+          "role": "Developer",
+          "location": "Buxoro",
+          "startDate": "2023-03-01",
+          "endDate": "",
+          "description": ""
+        }
+      ],
+      "languages": [
+        {
+          "language": "ru",
+          "level": "b2"
+        }
+      ],
+      "projects": [
+        {
+          "projectName": "crud",
+          "liveLink": "crud",
+          "repoLink": "crud git",
+          "description": ""
+        }
+      ],
+      "education": [
+        {
+          "institution": "bitu",
+          "degree": "bakalvr 1",
+          "fieldOfStudy": "iqtisod",
+          "startDate": "2026-04-02",
+          "endDate": "",
+          "description": ""
+        }
+      ],
+      "skills": [
+        {
+          "category": "Front",
+          "skillList": "react html css"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "fullName": "Javohir Ibrohimov",
+      "phone": "qw3412",
+      "gitHub": "2356",
+      "address": "qwety",
+      "email": "javohiribrohimov644@gmail.com",
+      "partfolio": "1235647",
+      "jobTitle": "qwrtey",
+      "LinkkeyIn": "34351",
+      "summary": "qwteyr",
+      "experiences": [
+        {
+          "company": "qwret",
+          "role": "qwe",
+          "location": "wqet",
+          "startDate": "2026-04-01",
+          "endDate": "2026-04-30",
+          "description": "qwertrytuyi"
+        },
+        {
+          "company": "qwrety",
+          "role": "qwert",
+          "location": "werty",
+          "startDate": "2026-05-01",
+          "endDate": "hozirda ham ishlayapti",
+          "description": "qewretryu"
+        }
+      ],
+      "languages": [
+        {
+          "language": "qwer",
+          "level": "qwr"
+        },
+        {
+          "language": "qwr",
+          "level": "qwr"
+        },
+        {
+          "language": "qwret",
+          "level": "qwret"
+        }
+      ],
+      "projects": [
+        {
+          "projectName": "qwret",
+          "liveLink": "wrqwrq",
+          "repoLink": "qwtq",
+          "description": "qwrtq"
+        },
+        {
+          "projectName": "wqteytq",
+          "liveLink": "rtwe",
+          "repoLink": "qwrqw",
+          "description": "qwrq"
+        },
+        {
+          "projectName": "qwte",
+          "liveLink": "qewqwrq",
+          "repoLink": "qwr",
+          "description": "wrq"
+        },
+        {
+          "projectName": "qwrqw",
+          "liveLink": "rqwer",
+          "repoLink": "qrq",
+          "description": "wr"
+        }
+      ],
+      "education": [
+        {
+          "institution": "qwrq",
+          "degree": "wrq",
+          "fieldOfStudy": "rqwr",
+          "startDate": "2026-04-01",
+          "endDate": "2026-04-30",
+          "description": "qwetq"
+        },
+        {
+          "institution": "qwret",
+          "degree": "qwret",
+          "fieldOfStudy": "qwet",
+          "startDate": "2026-05-01",
+          "endDate": "hozirda ham o'qiyapti",
+          "description": "qewretr"
+        }
+      ],
+      "skills": [
+        {
+          "category": "qwreq",
+          "skillList": "qw"
+        },
+        {
+          "category": "qwrqew",
+          "skillList": "qwr"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "userId": 1,
+      "fullName": "",
+      "phone": "",
+      "gitHub": "",
+      "address": "",
+      "email": "",
+      "partfolio": "",
+      "jobTitle": "",
+      "LinkkeyIn": "",
+      "summary": "",
+      "experiences": [],
+      "languages": [],
+      "projects": [],
+      "education": [],
+      "skills": [],
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "fullName": "",
+      "phone": "",
+      "gitHub": "",
+      "address": "",
+      "email": "",
+      "partfolio": "",
+      "jobTitle": "",
+      "LinkkeyIn": "",
+      "summary": "",
+      "experiences": [
+        {
+          "company": "",
+          "role": "",
+          "location": "",
+          "startDate": "",
+          "endDate": "",
+          "description": ""
+        }
+      ],
+      "languages": [
+        {
+          "language": "",
+          "level": ""
+        }
+      ],
+      "projects": [
+        {
+          "projectName": "",
+          "liveLink": "",
+          "repoLink": "",
+          "description": ""
+        }
+      ],
+      "education": [
+        {
+          "institution": "",
+          "degree": "",
+          "fieldOfStudy": "",
+          "startDate": "",
+          "endDate": "",
+          "description": ""
+        }
+      ],
+      "skills": [
+        {
+          "category": "",
+          "skillList": ""
+        }
+      ],
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "fullName": "",
+      "phone": "",
+      "gitHub": "",
+      "address": "",
+      "email": "",
+      "partfolio": "",
+      "jobTitle": "",
+      "LinkkeyIn": "",
+      "summary": "",
+      "experiences": [],
+      "languages": [],
+      "projects": [],
+      "education": [],
+      "skills": [],
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "fullName": "",
+      "phone": "",
+      "gitHub": "",
+      "address": "",
+      "email": "",
+      "partfolio": "",
+      "jobTitle": "",
+      "LinkkeyIn": "",
+      "summary": "",
+      "experiences": [],
+      "languages": [],
+      "projects": [],
+      "education": [],
+      "skills": [],
+      "id": 12
+    },
+    {
+      "userId": 6,
+      "fullName": "Javohir Ibrohimov",
+      "phone": "991231212",
+      "gitHub": "github.com/ravshan",
+      "address": "buxoro",
+      "email": "javohiribrohimov644@gmail.com",
+      "partfolio": "ravshan.uz",
+      "jobTitle": "developer",
+      "LinkkeyIn": "linked.in/ravshan",
+      "summary": "dadas as da a d qe qw a fa f ff afasfarfqw ",
+      "experiences": [
+        {
+          "company": "shift",
+          "role": "deve",
+          "location": "buxoro",
+          "startDate": "2026-06-05",
+          "endDate": "hozirda ham ishlayapti",
+          "description": "ewqe"
+        },
+        {
+          "company": "code",
+          "role": "dev",
+          "location": "tosh",
+          "startDate": "2026-04-29",
+          "endDate": "2026-05-13",
+          "description": ""
+        }
+      ],
+      "languages": [
+        {
+          "language": "ru",
+          "level": "e"
+        }
+      ],
+      "projects": [
+        {
+          "projectName": "crud",
+          "liveLink": "crud.uz",
+          "repoLink": "git/crud",
+          "description": ""
+        }
+      ],
+      "education": [
+        {
+          "institution": "inst",
+          "degree": "bakalavr",
+          "fieldOfStudy": "iqtiosd",
+          "startDate": "2026-05-21",
+          "endDate": "hozirda ham o'qiyapti",
+          "description": ""
+        }
+      ],
+      "skills": [
+        {
+          "category": "front",
+          "skillList": "html css js"
+        }
+      ],
+      "id": 13
+    }
+  ]
+}
