@@ -164,7 +164,7 @@ const crudSlice = createSlice({
       state.lan.level = action.payload;
     },
 
-    addExperience: (state) => {
+    addExperience: (state:any) => {
       state.resume.experiences.push({ ...state.exp });
       state.exp = {
         company: "",
@@ -175,7 +175,7 @@ const crudSlice = createSlice({
         description: "",
       };
     },
-    addProject: (state) => {
+    addProject: (state:any) => {
       state.resume.projects.push({ ...state.pro });
       state.pro = {
         projectName: "",
@@ -184,7 +184,7 @@ const crudSlice = createSlice({
         description: "",
       };
     },
-    addEducation: (state) => {
+    addEducation: (state:any) => {
       state.resume.education.push({ ...state.edu });
       state.edu = {
         institution: "",
@@ -195,11 +195,11 @@ const crudSlice = createSlice({
         description: "",
       };
     },
-    addSkill: (state) => {
+    addSkill: (state:any) => {
       state.resume.skills.push({ ...state.skils });
       state.skils = { category: "", skillList: "" };
     },
-    addLanguage: (state) => {
+    addLanguage: (state:any) => {
       state.resume.languages.push({ ...state.lan });
       state.lan = { language: "", level: "" };
     },
