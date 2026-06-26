@@ -1,58 +1,110 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import { crudApi } from "./query";
 
+interface Experience {
+  company: string;
+  role: string;
+  location: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+}
+
+interface Project {
+  projectName: string;
+  liveLink: string;
+  repoLink: string;
+  description: string;
+}
+
+interface Education {
+  institution: string;
+  degree: string;
+  fieldOfStudy: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+}
+
+interface Skill {
+  category: string;
+  skillList: string;
+}
+
+interface Language {
+  language: string;
+  level: string;
+}
+
+interface ResumeState {
+  user: { name: string; phone: string; password: string };
+  resume: {
+    userId: string;
+    fullName: string;
+    phone: string;
+    gitHub: string;
+    address: string;
+    email: string;
+    partfolio: string;
+    jobTitle: string;
+    LinkkeyIn: string;
+    summary: string;
+    experiences: Experience[];
+    languages: Language[];
+    projects: Project[];
+    education: Education[];
+    skills: Skill[];
+  };
+  exp: Experience;
+  pro: Project;
+  edu: Education;
+  skils: Skill;
+  lan: Language;
+}
+
+const initialState: ResumeState = {
+  user: { name: "", phone: "", password: "" },
+  resume: {
+    userId: "",
+    fullName: "",
+    phone: "",
+    gitHub: "",
+    address: "",
+    email: "",
+    partfolio: "",
+    jobTitle: "",
+    LinkkeyIn: "",
+    summary: "",
+    experiences: [],
+    languages: [],
+    projects: [],
+    education: [],
+    skills: [],
+  },
+  exp: {
+    company: "",
+    role: "",
+    location: "",
+    startDate: "",
+    endDate: "",
+    description: "",
+  },
+  pro: { projectName: "", liveLink: "", repoLink: "", description: "" },
+  edu: {
+    institution: "",
+    degree: "",
+    fieldOfStudy: "",
+    startDate: "",
+    endDate: "",
+    description: "",
+  },
+  skils: { category: "", skillList: "" },
+  lan: { language: "", level: "" },
+};
+
 const crudSlice = createSlice({
   name: "crud",
-  initialState: {
-    user: { name: "", phone: "", password: "" },
-    resume: {
-      userId: "",
-      fullName: "",
-      phone: "",
-      gitHub: "",
-      address: "",
-      email: "",
-      partfolio: "",
-      jobTitle: "",
-      LinkkeyIn: "",
-      summary: "",
-      experiences: [],
-      languages: [],
-      projects: [],
-      education: [],
-      skills: [],
-    },
-    exp: {
-      company: "",
-      role: "",
-      location: "",
-      startDate: "",
-      endDate: "",
-      description: "",
-    },
-    pro: {
-      projectName: "",
-      liveLink: "",
-      repoLink: "",
-      description: "",
-    },
-    edu: {
-      institution: "",
-      degree: "",
-      fieldOfStudy: "",
-      startDate: "",
-      endDate: "",
-      description: "",
-    },
-    skils: {
-      category: "",
-      skillList: "",
-    },
-    lan: {
-      language: "",
-      level: "",
-    },
-  },
+  initialState,
   reducers: {
     // --- USER ---
     getName: (state, action) => {
@@ -164,7 +216,7 @@ const crudSlice = createSlice({
       state.lan.level = action.payload;
     },
 
-    addExperience: (state:any) => {
+    addExperience: (state: any) => {
       state.resume.experiences.push({ ...state.exp });
       state.exp = {
         company: "",
@@ -175,7 +227,7 @@ const crudSlice = createSlice({
         description: "",
       };
     },
-    addProject: (state:any) => {
+    addProject: (state: any) => {
       state.resume.projects.push({ ...state.pro });
       state.pro = {
         projectName: "",
@@ -184,7 +236,7 @@ const crudSlice = createSlice({
         description: "",
       };
     },
-    addEducation: (state:any) => {
+    addEducation: (state: any) => {
       state.resume.education.push({ ...state.edu });
       state.edu = {
         institution: "",
@@ -195,11 +247,11 @@ const crudSlice = createSlice({
         description: "",
       };
     },
-    addSkill: (state:any) => {
+    addSkill: (state: any) => {
       state.resume.skills.push({ ...state.skils });
       state.skils = { category: "", skillList: "" };
     },
-    addLanguage: (state:any) => {
+    addLanguage: (state: any) => {
       state.resume.languages.push({ ...state.lan });
       state.lan = { language: "", level: "" };
     },
