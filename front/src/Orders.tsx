@@ -1,4 +1,4 @@
-import { Plus, Bell, Search, LayoutGrid, LogOut, X, Menu } from "lucide-react";
+import { Plus, Bell, Search, LayoutGrid, LogOut, X, } from "lucide-react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useGetResumeIdQuery } from "./utils/query";
 import { useState } from "react";
@@ -34,7 +34,7 @@ const Orders = () => {
       <nav className="w-full h-auto sm:h-16 bg-slate-900/50 border border-slate-800 rounded-xl mb-4 sm:mb-6 px-3 sm:px-6 py-3 sm:py-0 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0 backdrop-blur-md shadow-lg">
         <div className="flex items-center gap-2 w-full sm:w-auto justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
+            <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center shrink-0">
               <LayoutGrid size={18} className="text-white" />
             </div>
             <span className="font-bold tracking-tight text-lg bg-linear-to-r from-white to-slate-400 bg-clip-text text-transparent hidden sm:inline">
@@ -54,7 +54,7 @@ const Orders = () => {
         {/* Mobile search */}
         {showSearch && (
           <div className="w-full sm:hidden flex items-center bg-slate-950/50 border border-slate-800 rounded-lg px-3 py-2 gap-2 mb-2">
-            <Search size={16} className="text-slate-500 flex-shrink-0" />
+            <Search size={16} className="text-slate-500 shrink-0" />
             <input
               type="text"
               placeholder="Qidiruv..."
@@ -69,7 +69,7 @@ const Orders = () => {
         <div className="w-full sm:w-auto flex items-center gap-2 sm:gap-4 justify-end">
           {/* Desktop search */}
           <div className="hidden md:flex items-center bg-slate-950/50 border border-slate-800 rounded-lg px-3 py-1.5 gap-2">
-            <Search size={16} className="text-slate-500 flex-shrink-0" />
+            <Search size={16} className="text-slate-500 shrink-0" />
             <input
               type="text"
               placeholder="Qidiruv..."
@@ -81,7 +81,7 @@ const Orders = () => {
 
           {/* Tablet search - visible on sm/md only */}
           <div className="md:hidden sm:flex hidden items-center bg-slate-950/50 border border-slate-800 rounded-lg px-2 py-1.5 gap-1">
-            <Search size={14} className="text-slate-500 flex-shrink-0" />
+            <Search size={14} className="text-slate-500 shrink-0" />
             <input
               type="text"
               placeholder="Qidiruv..."
@@ -91,7 +91,7 @@ const Orders = () => {
             />
           </div>
 
-          <button className="p-1.5 sm:p-2 hover:bg-slate-800 rounded-full transition-colors relative flex-shrink-0">
+          <button className="p-1.5 sm:p-2 hover:bg-slate-800 rounded-full transition-colors relative shrink-0">
             <Bell size={18} className="sm:w-5 sm:h-5 text-slate-400" />
             <span className="absolute top-1 right-1 sm:top-2 sm:right-2 w-2 h-2 bg-blue-500 rounded-full border border-slate-900"></span>
           </button>
@@ -101,7 +101,7 @@ const Orders = () => {
           <div className="relative">
             <button 
               onClick={() => setShowProfile(!showProfile)}
-              className="flex items-center gap-2 pl-1 sm:pl-2 hover:bg-slate-800 rounded-lg transition-colors p-1 flex-shrink-0"
+              className="flex items-center gap-2 pl-1 sm:pl-2 hover:bg-slate-800 rounded-lg transition-colors p-1 shrink-0"
             >
               <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-linear-to-br from-blue-500 to-indigo-600 border border-slate-700"></div>
             </button>
